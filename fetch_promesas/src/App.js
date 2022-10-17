@@ -1,9 +1,11 @@
+import Profile from './Components/Profile/Profile';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Profile></Profile>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
